@@ -94,9 +94,11 @@ void vote(EdgePointCollection& edgeCollection,
     seeds.reserve(pointCount / 2);
 
     // todo@Lilian: remove thrVotingAngle from the parameter file
-    if (params._angleVoting != 0) {
-        BOOST_THROW_EXCEPTION(cctag::exception::Bug() << cctag::exception::user() + 
-                "thrVotingAngle must be equal to 0 or edge points gradients have to be normalized");
+    if (params._angleVoting != 0) 
+	{
+        //BOOST_THROW_EXCEPTION(cctag::exception::Bug() << cctag::exception::user() + 
+        //        "thrVotingAngle must be equal to 0 or edge points gradients have to be normalized");
+		throw std::domain_error("thrVotingAngle must be equal to 0 or edge points gradients have to be normalized.");
     }
 
     
