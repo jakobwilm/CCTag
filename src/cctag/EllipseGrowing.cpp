@@ -26,8 +26,8 @@
 #include <boost/foreach.hpp>
 #include <boost/math/constants/constants.hpp>
 #include <boost/mpl/bool.hpp>
-#include <boost/multi_array.hpp>
-#include <boost/multi_array/subarray.hpp>
+//#include <boost/multi_array.hpp>
+//#include <boost/multi_array/subarray.hpp>
 #include <boost/assert.hpp>
 
 #include <cstdio>

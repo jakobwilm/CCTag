@@ -12,8 +12,8 @@
 #include <cctag/Statistic.hpp>
 #include <cctag/geometry/Ellipse.hpp>
 
-#include <boost/numeric/ublas/matrix.hpp>
-#include <boost/numeric/ublas/vector.hpp>
+//#include <boost/numeric/ublas/matrix.hpp>
+//#include <boost/numeric/ublas/vector.hpp>
 #include <boost/foreach.hpp>
 
 
